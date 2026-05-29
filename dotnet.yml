@@ -1,0 +1,32 @@
+name: .NET Build CI
+
+on:
+  push:
+    branches: [ "main", "master" ]
+  pull_request:
+    branches: [ "main", "master" ]
+
+jobs:
+  build:
+    runs-on: windows-latest   # WPF requires Windows
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+
+    - name: Setup .NET 8
+      uses: actions/setup-dotnet@v4
+      with:
+        dotnet-version: '8.0.x'
+
+    - name: Restore NuGet packages
+      run: dotnet restore CyberSecurityChatBot/CyberSecurityChatBot.csproj
+
+    - name: Build solution
+      run: dotnet build CyberSecurityChatBot/CyberSecurityChatBot.csproj --configuration Release --no-restore
+
+    - name: Upload build artefacts
+      uses: actions/upload-artifact@v4
+      with:
+        name: CyberSecurityChatBot-Release
+        path: CyberSecurityChatBot/bin/Release/
