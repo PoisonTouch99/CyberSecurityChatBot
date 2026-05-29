@@ -18,17 +18,29 @@ The chatbot helps South African citizens learn about cybersecurity through an in
 The GUI's basic Features and Descriptions 
 
 •**WPF GUI**  = A complete Windows Presentation demonstrating the interface with dark cybersecurity theme. 
+
 •**Voice Greeting** = Whereas a voice greeting from part 1 will be played on startup.
+
 •**ASCII Art Logo** = It is displayed after the first chat message is launched. 
+
 •**Keyword Recognition** = It has basic key words to identify when responding to a message.
+
 •**Random Responses** = Each keyword has more than 2 responses that will be displayed after a question from the user.
+
 •**Conversation Flow** = there are phrases like "tell me more", "give me another tip" or "explain more" just to keep the conversation flowing.
+
 •**Memory & Recall** = It captures the user's name and personalises each response.
+
 •**Sentiment Detection** = It detects a user that is worried or confused to adjusts response tone.
+
 •**Input Validation** = It handles empty input and unrecognised messages gracefully.
+
 •**Quick Topic Buttons** = There is a sidebar on the left hand side with shortcuts to explore more topics.
+
 •**Memory Panel** =And on the Right hand side there is a sidebar that displays user's details.
+
 •**MVVM Architecture** = ViewModel + RelayCommand + INotifyPropertyChanged 
+
 •**Event**  = BotActionDelegate` event fires on every significant bot action 
 ---
 
