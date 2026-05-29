@@ -7,9 +7,9 @@
 
 ---
 
-## Overview
+## What happens in this section?
 
-Part 2 upgrades the console chatbot from Part 1 into a fully-featured **WPF GUI application**.  
+Part 2 upgrades the console chatbot from Part 1 into a **GUI** application, which makes it much easier for the user to understand.  
 The chatbot helps South African citizens learn about cybersecurity through an interactive, intelligent conversation interface.
 
 ---
