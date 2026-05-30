@@ -1,9 +1,9 @@
-# CyberSecurity Awareness Chatbot — Part 2
+# CyberSecurity Awareness Chatbot Part 2
 
-**Student:** Thandolwethu Masilela  
+**Student:** Thandolwethu Sam Junior Masilela  
 **Student Number:** ST10471194  
-**Module:** PROG6221 — Programming 2A  
-**Submission:** Part 2 — GUI Interface, Dynamic Responses, Sentiment Detection & Memory
+**Module:** PROG6221 (Programming 2A)  
+**Part 2:** GUI Interface, Dynamic Responses, Sentiment Detection & Memory
 
 ---
 
