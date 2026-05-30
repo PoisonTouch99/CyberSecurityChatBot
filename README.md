@@ -55,8 +55,3 @@ The GUI's basic Features and Descriptions
 4. You can also share your interest by just saying "I'm interested in privacy" to personalise your experience
 
 ---
-
-
->  Screenshot of passing CI workflow: *(add screenshot here)*
-
----
